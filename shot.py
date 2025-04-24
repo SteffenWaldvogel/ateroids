@@ -8,7 +8,7 @@ class Shot(CircleShape):
     containers = None
     
     def __init__(self, x, y):
-        print(f"In Shot.__init__, SHOT_RADIUS: {SHOT_RADIUS}")  # Debug print
+        
         super().__init__(x, y, SHOT_RADIUS)
         self.velocity = pygame.Vector2(0, 0)
         

@@ -53,4 +53,4 @@ class Player(CircleShape):
             self.timer = PLAYER_SHOOT_COOLDOWN
             return shot
         else:
-            print("Reloading")
+            pass
